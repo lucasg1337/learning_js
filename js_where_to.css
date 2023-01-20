@@ -5,3 +5,8 @@ strong{
     display: block;
     color: red;
 }
+button{
+    padding: 2%;
+    background-color: yellow;
+    border-radius: 10px;
+}
