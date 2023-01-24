@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS OUTPUT</title>
+    <link rel="stylesheet" href="2_output.css">
+    <script src="2_output.js"></script>
 </head>
 <body>
     <h1>Podemos mostrar dados de diferentes formas em JS:</h1>
@@ -14,5 +16,17 @@
         <li>.escrever dentro de uma caixa de alerta usando o metodo "window.alert()"</li>
         <li>.escrevendo dentro do console do browser usando "console.log()"</li>
     </ol>
+    <p id="demo1">Clique no botao abaixo para testar : <em>método innerHTML</em></p>
+    <button type="button" onclick="changeContent1()">Clique aqui</button><!-- o atributo da tag button 'onclick' é um evento-->
+    <br><br>
+    <button type="button" onclick="changeContent2()">Usar a função document.write()</button>
+    <em>*A funcao write() irá reescrever todo conteudo html da pagina,por isso é melhor usar somente para testes!</em>
+    <h1>JavaScript Print:</h1>
+    <em>.JS não possui nenhum objeto ou metodo para imprimir</em><br>
+    <br>
+    <em>.A unica exceção é o metodo print(),que imprime a página atual</em>
+    <br><br>
+    <button onclick="window.print()">IMPRIMIR PÁGINA ATUAL</button>
+    
 </body>
 </html>
