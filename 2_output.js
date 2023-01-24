@@ -5,5 +5,5 @@ function changeContent1(){
 function changeContent2(){
     document.write("Usamos a função/métodoo write() com sucesso!!!");
     window.alert("Conteudo HTML apagado!");//uso da função windows.alert() -- abre um janela de aviso
-    console.log("frase que será exiibida somente no console do navegador...");// aqui a saida só é visivel ao browser console
+    console.log("frase que será exibida somente no console do navegador...");// aqui a saida só é visivel ao browser console
 }
